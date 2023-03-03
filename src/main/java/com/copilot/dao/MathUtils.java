@@ -39,5 +39,16 @@ public class MathUtils {
             return a * factorial(a - 1);
         }
 
+        //find data from list?
+        public int findData(int[] a, int b) {
+            for (int i = 0; i < a.length; i++) {
+                if (a[i] == b) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+    }
+
 
 }
